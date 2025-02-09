@@ -1,5 +1,13 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,28 +20,42 @@
     <header class="fixed w-full bg-gray-900/95 backdrop-blur-sm border-b border-gray-800 z-50">
         <nav class="container mx-auto px-6 py-4">
             <div class="flex items-center justify-between">
-                <a href="/" class="text-2xl font-bold text-blue-500">NoPrepayHotels</a>
+                <a href="https://BetoWH13.github.io/find-the-best-hotel-deals---no-prepayment-needed-2025-02-09-a9oc0" class="text-2xl font-bold text-blue-500 hover:text-blue-400 transition-colors duration-300">NoPrepayHotels</a>
                 <div class="hidden md:flex space-x-8">
                     <a href="#features" class="hover:text-blue-400 transition-colors duration-300">Features</a>
                     <a href="#benefits" class="hover:text-blue-400 transition-colors duration-300">Benefits</a>
+                    <a href="#testimonials" class="hover:text-blue-400 transition-colors duration-300">Testimonials</a>
+                    <a href="#faq" class="hover:text-blue-400 transition-colors duration-300">FAQ</a>
+                    <a href="#about" class="hover:text-blue-400 transition-colors duration-300">About</a>
                     <a href="#contact" class="hover:text-blue-400 transition-colors duration-300">Contact</a>
                 </div>
-                <button class="md:hidden text-2xl" aria-label="Menu">
-                    <i class="fas fa-bars"></i>
+                <button class="mobile-menu-button md:hidden" aria-label="Toggle Menu">
+                    <i class="fas fa-bars text-2xl"></i>
                 </button>
+            </div>
+            <div class="mobile-menu hidden md:hidden mt-4 bg-gray-800 rounded-lg p-4">
+                <div class="flex flex-col space-y-4">
+                    <a href="#features" class="hover:text-blue-400 transition-colors duration-300">Features</a>
+                    <a href="#benefits" class="hover:text-blue-400 transition-colors duration-300">Benefits</a>
+                    <a href="#testimonials" class="hover:text-blue-400 transition-colors duration-300">Testimonials</a>
+                    <a href="#faq" class="hover:text-blue-400 transition-colors duration-300">FAQ</a>
+                    <a href="#about" class="hover:text-blue-400 transition-colors duration-300">About</a>
+                    <a href="#contact" class="hover:text-blue-400 transition-colors duration-300">Contact</a>
+                </div>
             </div>
         </nav>
     </header>
 
     <main>
-        <section class="relative min-h-screen flex items-center pt-20 pb-32 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900">
-            <div class="container mx-auto px-6">
+        <section class="relative min-h-screen flex items-center pt-20 pb-32 bg-[url('https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80')] bg-cover bg-center">
+            <div class="absolute inset-0 bg-gray-900/80"></div>
+            <div class="container mx-auto px-6 relative">
                 <div class="max-w-4xl mx-auto text-center">
                     <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-8 leading-tight tracking-tight">
                         Find the Best Hotel Deals – No Prepayment Needed
                     </h1>
                     <p class="text-xl md:text-2xl text-gray-300 mb-12 leading-relaxed">
-                        Book Hotels Smart – No Prepayment, No Hassle!
+                        Experience worry-free travel with our flexible booking system. Book now, pay later, and enjoy complete freedom in your travel plans.
                     </p>
                     <a href="https://noprepayhotels.com" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-4 rounded-lg transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-blue-500/25">
                         Start Booking Now
@@ -47,26 +69,26 @@
             <div class="container mx-auto px-6">
                 <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Premium Features</h2>
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
-                    <div class="bg-gray-900 rounded-xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1">
+                    <div class="bg-gray-900 rounded-xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-102">
                         <div class="text-blue-500 text-4xl mb-6">
                             <i class="fas fa-wallet"></i>
                         </div>
-                        <h3 class="text-xl font-semibold mb-4">No Upfront Payment</h3>
-                        <p class="text-gray-400">Book now and pay when you check in. Keep your money until your stay.</p>
+                        <h3 class="text-xl font-semibold mb-4">No Upfront Payment Required</h3>
+                        <p class="text-gray-400">Secure your booking without immediate payment. Keep your funds flexible and maintain control of your travel budget until check-in.</p>
                     </div>
-                    <div class="bg-gray-900 rounded-xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1">
+                    <div class="bg-gray-900 rounded-xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-102">
                         <div class="text-blue-500 text-4xl mb-6">
                             <i class="fas fa-calendar-alt"></i>
                         </div>
-                        <h3 class="text-xl font-semibold mb-4">Free Cancellation</h3>
-                        <p class="text-gray-400">Plans change? No problem. Cancel your booking without any charges.</p>
+                        <h3 class="text-xl font-semibold mb-4">Free Cancellation Guarantee</h3>
+                        <p class="text-gray-400">Life is unpredictable. Cancel your booking up to 24 hours before check-in with absolutely no penalties or hidden fees.</p>
                     </div>
-                    <div class="bg-gray-900 rounded-xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1">
+                    <div class="bg-gray-900 rounded-xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-102">
                         <div class="text-blue-500 text-4xl mb-6">
                             <i class="fas fa-hotel"></i>
                         </div>
-                        <h3 class="text-xl font-semibold mb-4">Pay at Check-in</h3>
-                        <p class="text-gray-400">Simple and straightforward payment process when you arrive.</p>
+                        <h3 class="text-xl font-semibold mb-4">Convenient Pay at Check-in</h3>
+                        <p class="text-gray-400">Simply arrive at your hotel and pay upon check-in. Choose from multiple payment methods including credit cards and cash.</p>
                     </div>
                 </div>
             </div>
@@ -76,36 +98,119 @@
             <div class="container mx-auto px-6">
                 <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Why Choose Us</h2>
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
-                    <div class="text-center">
+                    <div class="text-center transform hover:scale-105 transition-all duration-300">
                         <div class="text-blue-500 text-5xl mb-6">
                             <i class="fas fa-piggy-bank"></i>
                         </div>
-                        <h3 class="text-xl font-semibold mb-4">Save Money Upfront</h3>
-                        <p class="text-gray-400">Keep your funds flexible by paying only when you stay.</p>
+                        <h3 class="text-xl font-semibold mb-4">Maximum Financial Flexibility</h3>
+                        <p class="text-gray-400">Keep your travel budget flexible by avoiding upfront payments. Perfect for both business and leisure travelers.</p>
                     </div>
-                    <div class="text-center">
+                    <div class="text-center transform hover:scale-105 transition-all duration-300">
                         <div class="text-blue-500 text-5xl mb-6">
                             <i class="fas fa-exchange-alt"></i>
                         </div>
-                        <h3 class="text-xl font-semibold mb-4">Change Plans Freely</h3>
-                        <p class="text-gray-400">Enjoy complete flexibility with your travel arrangements.</p>
+                        <h3 class="text-xl font-semibold mb-4">Ultimate Travel Freedom</h3>
+                        <p class="text-gray-400">Change or cancel your plans without stress. Our flexible booking system puts you in control of your journey.</p>
                     </div>
-                    <div class="text-center">
+                    <div class="text-center transform hover:scale-105 transition-all duration-300">
                         <div class="text-blue-500 text-5xl mb-6">
                             <i class="fas fa-heart"></i>
                         </div>
-                        <h3 class="text-xl font-semibold mb-4">Stress-free Booking</h3>
-                        <p class="text-gray-400">Simple, transparent process from start to finish.</p>
+                        <h3 class="text-xl font-semibold mb-4">Peace of Mind Guaranteed</h3>
+                        <p class="text-gray-400">Experience worry-free booking with our transparent process and 24/7 customer support.</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="py-24 bg-gray-800">
-            <div class="container mx-auto px-6 text-center">
+        <section id="testimonials" class="py-24 bg-gray-800">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">What Our Customers Say</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="bg-gray-900 p-8 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300">
+                        <div class="flex items-center mb-4">
+                            <div class="text-yellow-400 text-lg">★★★★★</div>
+                        </div>
+                        <p class="text-gray-300 mb-4">"The no-prepayment feature saved me when I had to suddenly change my business trip dates. Absolutely no hassle with cancellation. This service is a game-changer!"</p>
+                        <p class="font-semibold">Sarah Chen</p>
+                        <p class="text-sm text-gray-400">Marketing Director, Tech Solutions Inc.</p>
+                    </div>
+                    <div class="bg-gray-900 p-8 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300">
+                        <div class="flex items-center mb-4">
+                            <div class="text-yellow-400 text-lg">★★★★★</div>
+                        </div>
+                        <p class="text-gray-300 mb-4">"I love how I can book multiple hotels for my vacation without tying up my credit card. The pay-at-check-in option gives me so much more flexibility with my travel budget."</p>
+                        <p class="font-semibold">Michael Rodriguez</p>
+                        <p class="text-sm text-gray-400">Frequent Traveler</p>
+                    </div>
+                    <div class="bg-gray-900 p-8 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300">
+                        <div class="flex items-center mb-4">
+                            <div class="text-yellow-400 text-lg">★★★★★</div>
+                        </div>
+                        <p class="text-gray-300 mb-4">"Best booking platform I've used in years. Saved over $500 on my last trip by having the flexibility to change hotels when I found better deals."</p>
+                        <p class="font-semibold">Emma Thompson</p>
+                        <p class="text-sm text-gray-400">Travel Blogger</p>
+                    </div>
+                    <div class="bg-gray-900 p-8 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300">
+                        <div class="flex items-center mb-4">
+                            <div class="text-yellow-400 text-lg">★★★★★</div>
+                        </div>
+                        <p class="text-gray-300 mb-4">"The customer service is exceptional. They helped me sort out a booking issue within minutes. Will definitely use again!"</p>
+                        <p class="font-semibold">David Park</p>
+                        <p class="text-sm text-gray-400">Business Consultant</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="py-24 bg-gray-900">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">About Us</h2>
+                <div class="max-w-3xl mx-auto">
+                    <p class="text-gray-300 mb-8 leading-relaxed">
+                        Founded in 2020, NoPrepayHotels emerged from a simple idea: travel bookings should be flexible and stress-free. Our founders, experienced travelers themselves, recognized the need for a booking platform that prioritizes traveler convenience and financial flexibility.
+                    </p>
+                    <p class="text-gray-300 leading-relaxed">
+                        Today, we're committed to revolutionizing the hotel booking experience by eliminating upfront payments and providing transparent, customer-first services. Our mission is to make travel more accessible and enjoyable for everyone by removing financial barriers and providing unmatched booking flexibility.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="faq" class="py-24 bg-gray-800">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Frequently Asked Questions</h2>
+                <div class="max-w-3xl mx-auto space-y-8">
+                    <div class="bg-gray-900 rounded-xl p-6 hover:shadow-lg transition-all duration-300">
+                        <h3 class="text-xl font-semibold mb-4">How does the no-prepayment system work?</h3>
+                        <p class="text-gray-400">You can book your hotel room without any upfront payment. Simply secure your reservation with your credit card details, and pay the full amount directly at the hotel during check-in.</p>
+                    </div>
+                    <div class="bg-gray-900 rounded-xl p-6 hover:shadow-lg transition-all duration-300">
+                        <h3 class="text-xl font-semibold mb-4">What is your cancellation policy?</h3>
+                        <p class="text-gray-400">Most bookings can be cancelled free of charge up to 24-48 hours before check-in. Specific policies vary by property and are clearly displayed during booking.</p>
+                    </div>
+                    <div class="bg-gray-900 rounded-xl p-6 hover:shadow-lg transition-all duration-300">
+                        <h3 class="text-xl font-semibold mb-4">Are your rates the same as other booking sites?</h3>
+                        <p class="text-gray-400">Yes, we offer competitive rates comparable to other major booking platforms, with the added benefit of no upfront payment required.</p>
+                    </div>
+                    <div class="bg-gray-900 rounded-xl p-6 hover:shadow-lg transition-all duration-300">
+                        <h3 class="text-xl font-semibold mb-4">What payment methods are accepted at check-in?</h3>
+                        <p class="text-gray-400">Most hotels accept major credit cards, debit cards, and cash. Specific payment options are listed in the hotel details during booking.</p>
+                    </div>
+                    <div class="bg-gray-900 rounded-xl p-6 hover:shadow-lg transition-all duration-300">
+                        <h3 class="text-xl font-semibold mb-4">Is my booking guaranteed without prepayment?</h3>
+                        <p class="text-gray-400">Yes, your booking is 100% guaranteed. We secure your reservation with the hotel directly, ensuring your room will be ready upon arrival.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-24 bg-gray-900 bg-[url('https://images.unsplash.com/photo-1571896349842-33c89424de2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80')] bg-cover bg-center relative">
+            <div class="absolute inset-0 bg-gray-900/80"></div>
+            <div class="container mx-auto px-6 text-center relative">
                 <h2 class="text-3xl md:text-4xl font-bold mb-8">Ready to Book Your Next Stay?</h2>
                 <p class="text-xl text-gray-300 mb-12 max-w-2xl mx-auto">
-                    Join thousands of smart travelers who book with confidence using our no-prepayment system.
+                    Join over 100,000 satisfied travelers who enjoy the freedom of flexible booking. No upfront payments, no stress - just simple, secure hotel reservations.
                 </p>
                 <a href="https://noprepayhotels.com" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-4 rounded-lg transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-blue-500/25">
                     Start Booking Now
@@ -128,16 +233,16 @@
                 <div>
                     <h3 class="text-xl font-bold mb-4">Company</h3>
                     <ul class="space-y-2">
-                        <li><a href="#" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">About Us</a></li>
-                        <li><a href="#" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">Blog</a></li>
+                        <li><a href="#about" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">About Us</a></li>
+                        <li><a href="https://BetoWH13.github.io/find-the-best-hotel-deals---no-prepayment-needed-2025-02-09-a9oc0/blog.html" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">Blog</a></li>
                         <li><a href="#" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">Careers</a></li>
                     </ul>
                 </div>
                 <div>
                     <h3 class="text-xl font-bold mb-4">Legal</h3>
                     <ul class="space-y-2">
-                        <li><a href="#" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">Privacy Policy</a></li>
-                        <li><a href="#" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">Terms of Service</a></li>
+                        <li><a href="https://BetoWH13.github.io/find-the-best-hotel-deals---no-prepayment-needed-2025-02-09-a9oc0/privacy.html" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">Privacy Policy</a></li>
+                        <li><a href="https://BetoWH13.github.io/find-the-best-hotel-deals---no-prepayment-needed-2025-02-09-a9oc0/terms.html" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">Terms of Service</a></li>
                     </ul>
                 </div>
                 <div>
@@ -160,5 +265,36 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.querySelector('header nav .mobile-menu-button');
+            const mobileMenu = document.querySelector('header nav .mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+        });
+    </script>
+</body>
 </body>
 </html>
